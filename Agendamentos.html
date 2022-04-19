@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Confeitaria Caldeira</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Marinete Moura" />
+        <meta name="keywords" content="confeitaria, caldeira, bolo, doces,cremes, chocolate, tradicional, moderna, artística"/>
+        <meta name="description" content=" Uma confeitaria tradicional, modena e artística" />
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <header>
+    	   <img src="img/capa.jpeg" alt="bolo de chocolate com morangos "/>
+        </header>
+        <nav>
+    	     <a class="a-menu" href="marinetecaldeira.html">Home</a>
+    	     <a class="a-menu" href="marinetecaldeira.html#pag-Para%20ter%20uma%20confeitaria%20de%20sucesso">Para ter uma confeitaria de sucesso</a>
+    	     <a class="a-menu" href="marinetecaldeira.html#pag-Algumas%20delícias%20da%20confeitaria">Algumas delícias da confeitaria</a>
+    	     <a class="a-menu" href="marinetecaldeira.html#pag-Bolo%20de%20chocolate%20fácil">Bolo de chocolate fácil</a>
+    	     <a class="a-menu" href="#">Faça uma receita conosco</a>
+        </nav>
+
+        <section id="pag-agendamentos">
+            <h1>Agendamentos</h1>
+
+   
+                 <p>Agende um dia para participar de nossos encontros gratuitos </p>
+
+                 <form name="" method="" action="">
+                 	<label for="name">Nome Completo</label>
+                 	<input id="name" type="text" name="nome_completo" placeholder="Digite seu nome completo" require autofocus /> 
+
+                 	<label for="email">E-mail:</label>
+                    <input id="email" type="email" name="email" placeholder="Ex:nome@gmail.com" required />
+
+                    <label for="senha">Senha:</label>
+                    <input id="senha" type="password" name="senha" placeholder="Digite sua senha..."/>
+
+                    <label for="celular">Celular:</label>
+                    <input id="celular" type="tel" name="celular" placeholder="(00)00000-0000" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+
+             <div id="data-hora-num">
+                 <div>
+                    <label for="data">Data:</label>
+                    <input id="data" type="date" name="data"/>
+                </div>
+                <div>
+                    <label for="hora">Hora:</label>
+                    <input id="hora" type="time" name="hora"/>
+                </div>
+                <div>
+                    <label for="aulas">Aulas:</label>
+                    <input id="aulas" type="number" name="aulas" min="1" max="3" step="1"/>
+                 </div>
+              </div>
+                    <label for="nivel">Nível:</label>
+                    <select id="nivel" name="nivel">
+                    	<option value="iniciante">Iniciante</option>
+                    	<option value="basico">Básico</option>
+                    	<option value="medio">Médio</option>
+                    	<option value="avancado">Avançado</option>
+                    </select><br/>
+
+                    <fieldset>
+                    	<legend>Gênero</legend>
+                    	<input id="masc" type="radio" name="genero" value="masc" /> <label for="masc">Masculino</label> <br/>
+                        <input id="fem" type="radio" name="genero" value="fem" /> <label for="fem">Feminino</label>
+                    </fieldset>
+
+                    <label for="msg">Mensagem</label> <br/>
+                    <textarea id="msg" cols="51" rows="10"></textarea>
+
+                    
+                    
+
+                    <div id="botoes-form">
+	               	    <input type="submit" name="bnt-agendar" value="Agendar" />
+	                    <input type="reset" name="bnt-cancelar" value="Cancelar" />
+                    </div>
+
+
+                 </form>
+        </section>
+        <footer>
+            <p >Desenvolvido por <a href="http://instagram.com/moura_moura14" target="_blank">Marinete Moura</a> - 2021 </p>
+        </footer>
+
+    </body>
+</html>  

@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;1,500&display=swap');
+
+*{margin:0;}
+
+body{
+	background-color:#FFF;
+}
+
+header, img{
+	width:100%;
+	height: 325px;
+} 
+
+nav{
+	background-color:#FFC0CB;
+	text-align: center;
+	padding: 10px;
+
+
+}
+
+a{
+	font: 1.1rem 'STIX Two Text', sans-serif;
+	text-decoration: none;	
+}
+
+.a-menu{
+	color: #FFF;
+	margin-right: 40px;
+}
+
+a:hover{
+	color: grey;
+}
+
+
+article{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+h1{
+	font: 2rem 'STIX Two Text', sans-serif;
+	color: #cb9ca1;
+	text-align: center;
+	margin: 10px 0px 5px 0px;
+
+}
+
+p{
+	font: 1rem 'STIX Two Text', sans-serif; 
+	color: #a69b97;
+	text-align: center;
+}
+
+section{
+	padding: 20px 40px
+}
+h2{
+	font: 1.2rem 'STIX Two Text', sans-serif;
+	color: #cb9ca1;
+	margin-bottom: 10px
+
+}
+
+#pag-ptcs{
+	background-color: #FFF;
+
+}
+
+#pag-ptcs{
+
+}
+
+ul{
+	padding: 10px 0px
+
+}
+
+li{
+	font: 1rem 'STIX Two Text', sans-serif; 
+	color: #a69b97;
+	margin-bottom: 5px;
+}
+
+#pag-addc{
+
+}
+
+#container{
+	display: flex;
+
+}
+
+.card{
+	margin: 10px;
+	width: 25%;
+	border-radius:10px;
+	box-shadow: 10px 5px 10px #d3d3d3;
+}
+
+.card:hover{
+	box-shadow: 10px 10px 15px #d3d3d3;
+}
+
+.card-contet{
+	padding: 10px;
+
+}
+
+.card-contet p{
+	text-align: justify;
+	line-height: 20px;
+
+
+}
+
+h3{
+	font: 1.5rem 'STIX Two Text', sans-serif;
+	color: #cb9ca1;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#pag-bdcf{
+
+}
+
+#pag-bdcf p{
+	text-align: justify;
+	margin-bottom: 10px
+}
+
+#container-bdcf{
+	display: flex;
+}
+
+.coluna{
+	padding: 20px;
+
+}
+
+video{
+
+width: 400px;
+}
+
+footer{
+	background-color: #FFC0CB;
+	padding: 20px;
+
+}
+
+footer p{
+	text-align: center;
+	color: #FFF;
+}
+
+footer a{
+	color: #FFF;
+}
+
+footer a:hover{
+	color: gray;
+}
+
+/*página agendamentos*/
+
+#pag-agendamentos{
+
+}
+
+#pag-agendamentos p{
+	margin-bottom: 20px;
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;
+
+}
+
+input, select, textarea{
+	width: 100%;
+	height: 20px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #C4C4C4;
+	color: #777;
+}
+
+label, fieldset, input, select, textarea{
+	font: 1rem 'STIX Two Text', sans-serif;
+	color: #777;
+}
+
+fieldset{
+	border: 1px solid #C4C4C4;
+	margin-bottom: 10px;
+
+}
+
+#data-hora-num{
+	display: flex;
+}
+
+input[type="radio"]{
+	width: 10px;
+	height: 10px;
+	margin-left: 50px;
+}
+
+textarea{
+	height: 80px;
+}
+
+#botoes-form{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	border:0;
+}
